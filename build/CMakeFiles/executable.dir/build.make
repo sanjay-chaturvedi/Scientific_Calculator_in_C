@@ -57,9 +57,22 @@ include CMakeFiles/executable.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/executable.dir/flags.make
 
+CMakeFiles/executable.dir/src/cube.c.o: CMakeFiles/executable.dir/flags.make
+CMakeFiles/executable.dir/src/cube.c.o: ../src/cube.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/executable.dir/src/cube.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/cube.c.o   -c /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/cube.c
+
+CMakeFiles/executable.dir/src/cube.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/executable.dir/src/cube.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/cube.c > CMakeFiles/executable.dir/src/cube.c.i
+
+CMakeFiles/executable.dir/src/cube.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/executable.dir/src/cube.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/cube.c -o CMakeFiles/executable.dir/src/cube.c.s
+
 CMakeFiles/executable.dir/src/main.c.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/executable.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/executable.dir/src/main.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/main.c.o   -c /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/main.c
 
 CMakeFiles/executable.dir/src/main.c.i: cmake_force
@@ -72,7 +85,7 @@ CMakeFiles/executable.dir/src/main.c.s: cmake_force
 
 CMakeFiles/executable.dir/src/math.c.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/math.c.o: ../src/math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/executable.dir/src/math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/executable.dir/src/math.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/math.c.o   -c /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.c
 
 CMakeFiles/executable.dir/src/math.c.i: cmake_force
@@ -85,7 +98,7 @@ CMakeFiles/executable.dir/src/math.c.s: cmake_force
 
 CMakeFiles/executable.dir/src/matrix_mul.c.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/matrix_mul.c.o: ../src/matrix_mul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/executable.dir/src/matrix_mul.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/executable.dir/src/matrix_mul.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/matrix_mul.c.o   -c /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/matrix_mul.c
 
 CMakeFiles/executable.dir/src/matrix_mul.c.i: cmake_force
@@ -98,6 +111,7 @@ CMakeFiles/executable.dir/src/matrix_mul.c.s: cmake_force
 
 # Object files for target executable
 executable_OBJECTS = \
+"CMakeFiles/executable.dir/src/cube.c.o" \
 "CMakeFiles/executable.dir/src/main.c.o" \
 "CMakeFiles/executable.dir/src/math.c.o" \
 "CMakeFiles/executable.dir/src/matrix_mul.c.o"
@@ -105,12 +119,13 @@ executable_OBJECTS = \
 # External object files for target executable
 executable_EXTERNAL_OBJECTS =
 
+executable: CMakeFiles/executable.dir/src/cube.c.o
 executable: CMakeFiles/executable.dir/src/main.c.o
 executable: CMakeFiles/executable.dir/src/math.c.o
 executable: CMakeFiles/executable.dir/src/matrix_mul.c.o
 executable: CMakeFiles/executable.dir/build.make
 executable: CMakeFiles/executable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable executable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable executable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/executable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

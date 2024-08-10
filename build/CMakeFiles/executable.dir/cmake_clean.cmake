@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/executable.dir/src/cube.c.o"
   "CMakeFiles/executable.dir/src/main.c.o"
   "CMakeFiles/executable.dir/src/math.c.o"
   "CMakeFiles/executable.dir/src/matrix_mul.c.o"

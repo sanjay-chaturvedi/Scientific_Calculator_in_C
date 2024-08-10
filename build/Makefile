@@ -123,6 +123,33 @@ executable/fast:
 	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/build
 .PHONY : executable/fast
 
+src/cube.o: src/cube.c.o
+
+.PHONY : src/cube.o
+
+# target to build an object file
+src/cube.c.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/cube.c.o
+.PHONY : src/cube.c.o
+
+src/cube.i: src/cube.c.i
+
+.PHONY : src/cube.i
+
+# target to preprocess a source file
+src/cube.c.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/cube.c.i
+.PHONY : src/cube.c.i
+
+src/cube.s: src/cube.c.s
+
+.PHONY : src/cube.s
+
+# target to generate assembly for a file
+src/cube.c.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/cube.c.s
+.PHONY : src/cube.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... executable"
+	@echo "... src/cube.o"
+	@echo "... src/cube.i"
+	@echo "... src/cube.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
