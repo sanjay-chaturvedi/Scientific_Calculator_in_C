@@ -1,0 +1,3 @@
+/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles/rebuild_cache.dir
+/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles/edit_cache.dir
+/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles/executable.dir
