@@ -3,8 +3,8 @@
 
 CMakeFiles/executable.dir/src/main.c.o
  ../header/math.h
- /home/sanjay/Dropbox/c_lang/calc/src/main.c
+ /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/main.c
 CMakeFiles/executable.dir/src/math.c.o
- /home/sanjay/Dropbox/c_lang/calc/src/math.c
+ /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.c
 CMakeFiles/executable.dir/src/matrix_mul.c.o
- /home/sanjay/Dropbox/c_lang/calc/src/matrix_mul.c
+ /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/matrix_mul.c

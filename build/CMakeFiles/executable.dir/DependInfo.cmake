@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sanjay/Dropbox/c_lang/calc/src/main.c" "/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles/executable.dir/src/main.c.o"
-  "/home/sanjay/Dropbox/c_lang/calc/src/math.c" "/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles/executable.dir/src/math.c.o"
-  "/home/sanjay/Dropbox/c_lang/calc/src/matrix_mul.c" "/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles/executable.dir/src/matrix_mul.c.o"
+  "/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/main.c" "/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles/executable.dir/src/main.c.o"
+  "/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.c" "/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles/executable.dir/src/math.c.o"
+  "/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/matrix_mul.c" "/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles/executable.dir/src/matrix_mul.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

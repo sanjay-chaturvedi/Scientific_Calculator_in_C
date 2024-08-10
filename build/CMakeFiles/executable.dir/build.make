@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sanjay/Dropbox/c_lang/calc
+CMAKE_SOURCE_DIR = /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sanjay/Dropbox/c_lang/calc/build
+CMAKE_BINARY_DIR = /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/executable.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/executable.dir/flags.make
 
 CMakeFiles/executable.dir/src/main.c.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/executable.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/main.c.o   -c /home/sanjay/Dropbox/c_lang/calc/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/executable.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/main.c.o   -c /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/main.c
 
 CMakeFiles/executable.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/executable.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sanjay/Dropbox/c_lang/calc/src/main.c > CMakeFiles/executable.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/main.c > CMakeFiles/executable.dir/src/main.c.i
 
 CMakeFiles/executable.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/executable.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sanjay/Dropbox/c_lang/calc/src/main.c -o CMakeFiles/executable.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/main.c -o CMakeFiles/executable.dir/src/main.c.s
 
 CMakeFiles/executable.dir/src/math.c.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/math.c.o: ../src/math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/executable.dir/src/math.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/math.c.o   -c /home/sanjay/Dropbox/c_lang/calc/src/math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/executable.dir/src/math.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/math.c.o   -c /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.c
 
 CMakeFiles/executable.dir/src/math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/executable.dir/src/math.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sanjay/Dropbox/c_lang/calc/src/math.c > CMakeFiles/executable.dir/src/math.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.c > CMakeFiles/executable.dir/src/math.c.i
 
 CMakeFiles/executable.dir/src/math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/executable.dir/src/math.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sanjay/Dropbox/c_lang/calc/src/math.c -o CMakeFiles/executable.dir/src/math.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.c -o CMakeFiles/executable.dir/src/math.c.s
 
 CMakeFiles/executable.dir/src/matrix_mul.c.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/matrix_mul.c.o: ../src/matrix_mul.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/executable.dir/src/matrix_mul.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/matrix_mul.c.o   -c /home/sanjay/Dropbox/c_lang/calc/src/matrix_mul.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/executable.dir/src/matrix_mul.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/executable.dir/src/matrix_mul.c.o   -c /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/matrix_mul.c
 
 CMakeFiles/executable.dir/src/matrix_mul.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/executable.dir/src/matrix_mul.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sanjay/Dropbox/c_lang/calc/src/matrix_mul.c > CMakeFiles/executable.dir/src/matrix_mul.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/matrix_mul.c > CMakeFiles/executable.dir/src/matrix_mul.c.i
 
 CMakeFiles/executable.dir/src/matrix_mul.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/executable.dir/src/matrix_mul.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sanjay/Dropbox/c_lang/calc/src/matrix_mul.c -o CMakeFiles/executable.dir/src/matrix_mul.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/matrix_mul.c -o CMakeFiles/executable.dir/src/matrix_mul.c.s
 
 # Object files for target executable
 executable_OBJECTS = \
@@ -110,7 +110,7 @@ executable: CMakeFiles/executable.dir/src/math.c.o
 executable: CMakeFiles/executable.dir/src/matrix_mul.c.o
 executable: CMakeFiles/executable.dir/build.make
 executable: CMakeFiles/executable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable executable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable executable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/executable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/executable.dir/clean:
 .PHONY : CMakeFiles/executable.dir/clean
 
 CMakeFiles/executable.dir/depend:
-	cd /home/sanjay/Dropbox/c_lang/calc/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sanjay/Dropbox/c_lang/calc /home/sanjay/Dropbox/c_lang/calc /home/sanjay/Dropbox/c_lang/calc/build /home/sanjay/Dropbox/c_lang/calc/build /home/sanjay/Dropbox/c_lang/calc/build/CMakeFiles/executable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build /home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/build/CMakeFiles/executable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/executable.dir/depend
 

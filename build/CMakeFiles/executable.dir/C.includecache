@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../header/math.h
+
+/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/main.c
+stdio.h
+-
+math.h
+/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.h
+
+/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/math.c
+
+/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/src/matrix_mul.c
+

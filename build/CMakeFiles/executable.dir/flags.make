@@ -6,5 +6,5 @@ C_FLAGS =  -pthread   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/sanjay/Dropbox/c_lang/calc/header 
+C_INCLUDES = -I/home/sanjay/Dropbox/c_lang/Scientific_Calculator_in_C/header 
 
